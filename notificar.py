@@ -26,7 +26,7 @@ def avisar():
     for usuario in usuarios:
       pbt = Pushbullet(usuario)
       pbt.push_note(
-          '⚠️ALerta⚠️', f'O sistema【𝟭】 recebeu dados de risco\nBPM: {pegarValores()["feeds"][0]["field1"]} | SpO2: {pegarValores()["feeds"][0]["field2"]}')
+          '⚠️ALerta⚠️', f'O sistema【𝟭】 recebeu dados de risco\nBPM: {pegarValores()["feeds"][0]["field1"]} | SpO2: {pegarValores()["feeds"][0]["field2"]}%')
 
 
 while True:
