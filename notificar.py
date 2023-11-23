@@ -32,4 +32,4 @@ def avisar():
 while True:
   avisar()
 
-  time.sleep(20)
+  time.sleep(16)
