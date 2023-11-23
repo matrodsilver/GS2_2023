@@ -14,7 +14,7 @@ def pegarValores():
     return {}
 
 def avisar():
-  if (int(pegarValores()['feeds'][0]['field1']) < 60 or int(pegarValores()['feeds'][0]['field1']) > 100) (int(pegarValores()['feeds'][0]['field2']) < 95):
+  if (int(pegarValores()['feeds'][0]['field1']) < 60 or int(pegarValores()['feeds'][0]['field1']) > 100) or (int(pegarValores()['feeds'][0]['field2']) < 95):
     
     print(pegarValores()['feeds'][0]['field1'])
     
